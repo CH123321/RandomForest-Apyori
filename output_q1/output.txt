@@ -1,0 +1,10 @@
+By Grid Search, we got the best parameters {'max_depth': 20, 'n_estimators': 100}.
+The model with best parameters has the highest CV AUC value: 0.9924145819380104.
+Below is the best Random Forest model's information:
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=20, max_features='sqrt', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=20, min_samples_split=100,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=None,
+            oob_score=False, random_state=1117, verbose=0,
+            warm_start=False)

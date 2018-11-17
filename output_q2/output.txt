@@ -1,0 +1,233 @@
+Rule:	CELL_- -> Label.
+Rule:	CHPTYPE1_60 -> Label.
+Rule:	CRASHTYP_E -> Label.
+Rule:	CRASHTYP_G -> Label.
+Rule:	INSURED_N -> Label.
+Rule:	INSURED_O -> Label.
+Rule:	INVOLVE_B -> Label.
+Rule:	INVOLVE_I -> Label.
+Rule:	PAGE_6 -> Label.
+Rule:	PDRUG_E -> Label.
+Rule:	PSAFETY1_- -> Label.
+Rule:	PSAFETY2_- -> Label.
+Rule:	PSOBER_B -> Label.
+Rule:	PTYPE_2 -> Label.
+Rule:	VEHMAKE_- -> Label.
+Rule:	VEHTYPE_N -> Label.
+Rule:	VEHYEAR_2012 -> Label.
+Rule:	VEJECTED_1 -> Label.
+Rule:	VEJECTED_3 -> Label.
+Rule:	VSAFETY1_- -> Label.
+Rule:	VSAFETY1_L -> Label.
+Rule:	VSAFETY2_- -> Label.
+Rule:	VSEAT_1 -> Label.
+Rule:	VSEAT_9 -> Label.
+Rule:	VTYPE_1 -> Label.
+Rule:	VTYPE_3 -> Label.
+Rule:	PSAFETY2_-, ATFAULT_N -> Label.
+Rule:	CRASHTYP_E, ATFAULT_Y -> Label.
+Rule:	ATFAULT_Y, INVOLVE_I -> Label.
+Rule:	ATFAULT_Y, LIGHTING_C -> Label.
+Rule:	PSAFETY1_-, ATFAULT_Y -> Label.
+Rule:	PSAFETY2_-, ATFAULT_Y -> Label.
+Rule:	VSAFETY2_-, ATFAULT_Y -> Label.
+Rule:	VSEAT_1, ATFAULT_Y -> Label.
+Rule:	ATFAULT_Y, VTYPE_1 -> Label.
+Rule:	CELL_-, BEATTYPE_0 -> Label.
+Rule:	CHPTYPE1_60, BEATTYPE_0 -> Label.
+Rule:	CRASHTYP_G, BEATTYPE_0 -> Label.
+Rule:	INSURED_O, BEATTYPE_0 -> Label.
+Rule:	BEATTYPE_0, INVOLVE_B -> Label.
+Rule:	PAGE_6, BEATTYPE_0 -> Label.
+Rule:	PSAFETY1_-, BEATTYPE_0 -> Label.
+Rule:	PSAFETY2_-, BEATTYPE_0 -> Label.
+Rule:	PTYPE_2, BEATTYPE_0 -> Label.
+Rule:	VEHMAKE_-, BEATTYPE_0 -> Label.
+Rule:	VEHTYPE_N, BEATTYPE_0 -> Label.
+Rule:	VEHYEAR_2012, BEATTYPE_0 -> Label.
+Rule:	VSAFETY1_-, BEATTYPE_0 -> Label.
+Rule:	VSAFETY2_-, BEATTYPE_0 -> Label.
+Rule:	VSEAT_1, BEATTYPE_0 -> Label.
+Rule:	BEATTYPE_0, VSEAT_9 -> Label.
+Rule:	VTYPE_1, BEATTYPE_0 -> Label.
+Rule:	VTYPE_3, BEATTYPE_0 -> Label.
+Rule:	CELL_-, CHPTYPE2_00 -> Label.
+Rule:	CELL_-, CHPTYPE_0 -> Label.
+Rule:	CELL_-, HITRUN_N -> Label.
+Rule:	INTERSECT__N, CELL_- -> Label.
+Rule:	PSEX_M, CELL_- -> Label.
+Rule:	CELL_3, INSURED_O -> Label.
+Rule:	CELL_3, PSAFETY1_- -> Label.
+Rule:	PSAFETY2_-, CELL_3 -> Label.
+Rule:	CELL_3, VEHMAKE_- -> Label.
+Rule:	CELL_3, VEHYEAR_2012 -> Label.
+Rule:	CELL_3, VEJECTED_1 -> Label.
+Rule:	CELL_3, VSAFETY2_- -> Label.
+Rule:	CELL_3, VSEAT_1 -> Label.
+Rule:	CELL_3, VTYPE_1 -> Label.
+Rule:	VSEAT_1, CHPTYPE1_01 -> Label.
+Rule:	VTYPE_1, CHPTYPE1_01 -> Label.
+Rule:	CHPTYPE1_60, CHPTYPE2_00 -> Label.
+Rule:	CHPTYPE1_60, CHPTYPE_0 -> Label.
+Rule:	CRASHTYP_G, CHPTYPE1_60 -> Label.
+Rule:	HITRUN_N, CHPTYPE1_60 -> Label.
+Rule:	CHPTYPE1_60, INSURED_O -> Label.
+Rule:	INTERSECT__N, CHPTYPE1_60 -> Label.
+Rule:	CHPTYPE1_60, INVOLVE_B -> Label.
+Rule:	CRASHTYP_E, CHPTYPE2_00 -> Label.
+Rule:	CRASHTYP_G, CHPTYPE2_00 -> Label.
+Rule:	INSURED_N, CHPTYPE2_00 -> Label.
+Rule:	INSURED_O, CHPTYPE2_00 -> Label.
+Rule:	CHPTYPE2_00, INVOLVE_B -> Label.
+Rule:	INVOLVE_I, CHPTYPE2_00 -> Label.
+Rule:	PAGE_6, CHPTYPE2_00 -> Label.
+Rule:	PDRUG_E, CHPTYPE2_00 -> Label.
+Rule:	PSAFETY1_-, CHPTYPE2_00 -> Label.
+Rule:	PSAFETY2_-, CHPTYPE2_00 -> Label.
+Rule:	CHPTYPE2_00, PSOBER_B -> Label.
+Rule:	PTYPE_2, CHPTYPE2_00 -> Label.
+Rule:	VEHMAKE_-, CHPTYPE2_00 -> Label.
+Rule:	VEHTYPE_N, CHPTYPE2_00 -> Label.
+Rule:	VEHYEAR_2012, CHPTYPE2_00 -> Label.
+Rule:	CHPTYPE2_00, VEJECTED_1 -> Label.
+Rule:	VEJECTED_3, CHPTYPE2_00 -> Label.
+Rule:	VSAFETY1_-, CHPTYPE2_00 -> Label.
+Rule:	VSAFETY1_L, CHPTYPE2_00 -> Label.
+Rule:	VSAFETY2_-, CHPTYPE2_00 -> Label.
+Rule:	VSEAT_1, CHPTYPE2_00 -> Label.
+Rule:	CHPTYPE2_00, VSEAT_9 -> Label.
+Rule:	VTYPE_1, CHPTYPE2_00 -> Label.
+Rule:	VTYPE_3, CHPTYPE2_00 -> Label.
+Rule:	CRASHTYP_G, CHPTYPE_0 -> Label.
+Rule:	INSURED_O, CHPTYPE_0 -> Label.
+Rule:	CHPTYPE_0, INVOLVE_B -> Label.
+Rule:	PAGE_6, CHPTYPE_0 -> Label.
+Rule:	PSAFETY1_-, CHPTYPE_0 -> Label.
+Rule:	PSAFETY2_-, CHPTYPE_0 -> Label.
+Rule:	PTYPE_2, CHPTYPE_0 -> Label.
+Rule:	VEHMAKE_-, CHPTYPE_0 -> Label.
+Rule:	VEHTYPE_N, CHPTYPE_0 -> Label.
+Rule:	VEHYEAR_2012, CHPTYPE_0 -> Label.
+Rule:	VSAFETY1_-, CHPTYPE_0 -> Label.
+Rule:	VSAFETY2_-, CHPTYPE_0 -> Label.
+Rule:	VSEAT_1, CHPTYPE_0 -> Label.
+Rule:	CHPTYPE_0, VSEAT_9 -> Label.
+Rule:	VTYPE_1, CHPTYPE_0 -> Label.
+Rule:	VTYPE_3, CHPTYPE_0 -> Label.
+Rule:	CRASHTYP_E, HITRUN_N -> Label.
+Rule:	INTERSECT__N, CRASHTYP_E -> Label.
+Rule:	CRASHTYP_E, INVOLVE_I -> Label.
+Rule:	CRASHTYP_G, HITRUN_N -> Label.
+Rule:	CRASHTYP_G, INSURED_O -> Label.
+Rule:	INTERSECT__N, CRASHTYP_G -> Label.
+Rule:	CRASHTYP_G, INVOLVE_B -> Label.
+Rule:	PSEX_M, CRASHTYP_G -> Label.
+Rule:	VEJECTED_3, CRASHTYP_G -> Label.
+Rule:	VSEX_M, CRASHTYP_G -> Label.
+Rule:	INSURED_N, HITRUN_N -> Label.
+Rule:	HITRUN_N, INSURED_O -> Label.
+Rule:	HITRUN_N, INVOLVE_B -> Label.
+Rule:	HITRUN_N, INVOLVE_I -> Label.
+Rule:	HITRUN_N, PAGE_6 -> Label.
+Rule:	PDRUG_E, HITRUN_N -> Label.
+Rule:	PSAFETY1_-, HITRUN_N -> Label.
+Rule:	PSAFETY2_-, HITRUN_N -> Label.
+Rule:	HITRUN_N, PSOBER_B -> Label.
+Rule:	PTYPE_2, HITRUN_N -> Label.
+Rule:	VEHMAKE_-, HITRUN_N -> Label.
+Rule:	HITRUN_N, VEHTYPE_N -> Label.
+Rule:	HITRUN_N, VEHYEAR_2012 -> Label.
+Rule:	HITRUN_N, VEJECTED_1 -> Label.
+Rule:	VEJECTED_3, HITRUN_N -> Label.
+Rule:	VSAFETY1_-, HITRUN_N -> Label.
+Rule:	VSAFETY1_L, HITRUN_N -> Label.
+Rule:	VSAFETY2_-, HITRUN_N -> Label.
+Rule:	VSEAT_1, HITRUN_N -> Label.
+Rule:	HITRUN_N, VSEAT_9 -> Label.
+Rule:	HITRUN_N, VTYPE_1 -> Label.
+Rule:	HITRUN_N, VTYPE_3 -> Label.
+Rule:	INTERSECT__N, INSURED_O -> Label.
+Rule:	INSURED_O, INVOLVE_B -> Label.
+Rule:	INSURED_O, PDRUG_- -> Label.
+Rule:	POP_7, INSURED_O -> Label.
+Rule:	PSEX_M, INSURED_O -> Label.
+Rule:	PSOBER_A, INSURED_O -> Label.
+Rule:	INSURED_O, RIGHTWAY_D -> Label.
+Rule:	VEJECTED_3, INSURED_O -> Label.
+Rule:	VSAFETY1_-, INSURED_O -> Label.
+Rule:	VSEX_M, INSURED_O -> Label.
+Rule:	INTERSECT__N, INVOLVE_B -> Label.
+Rule:	INTERSECT__N, INVOLVE_I -> Label.
+Rule:	INTERSECT__N, PDRUG_E -> Label.
+Rule:	INTERSECT__N, PSAFETY1_- -> Label.
+Rule:	PSAFETY2_-, INTERSECT__N -> Label.
+Rule:	INTERSECT__N, PSOBER_B -> Label.
+Rule:	PTYPE_2, INTERSECT__N -> Label.
+Rule:	INTERSECT__N, VEHMAKE_- -> Label.
+Rule:	INTERSECT__N, VEHTYPE_N -> Label.
+Rule:	INTERSECT__N, VEHYEAR_2012 -> Label.
+Rule:	INTERSECT__N, VSAFETY2_- -> Label.
+Rule:	INTERSECT__N, VSEAT_1 -> Label.
+Rule:	INTERSECT__N, VSEAT_9 -> Label.
+Rule:	INTERSECT__N, VTYPE_1 -> Label.
+Rule:	INTERSECT__N, VTYPE_3 -> Label.
+Rule:	PSEX_M, INVOLVE_B -> Label.
+Rule:	VEJECTED_3, INVOLVE_B -> Label.
+Rule:	VSEX_M, INVOLVE_B -> Label.
+Rule:	LIGHTING_A, VSEAT_1 -> Label.
+Rule:	LIGHTING_A, VTYPE_1 -> Label.
+Rule:	PSAFETY2_-, LIGHTING_C -> Label.
+Rule:	VSAFETY2_-, LIGHTING_C -> Label.
+Rule:	VSEAT_1, LIGHTING_C -> Label.
+Rule:	VSEAT_1, MOVEMENT_B -> Label.
+Rule:	VTYPE_1, MOVEMENT_B -> Label.
+Rule:	VSEAT_1, OAF1_N -> Label.
+Rule:	OAF1_N, VTYPE_1 -> Label.
+Rule:	PSAFETY1_-, PDRUG_- -> Label.
+Rule:	PSAFETY2_-, PDRUG_- -> Label.
+Rule:	VEHMAKE_-, PDRUG_- -> Label.
+Rule:	VEHYEAR_2012, PDRUG_- -> Label.
+Rule:	VSEAT_1, PDRUG_- -> Label.
+Rule:	VTYPE_1, PDRUG_- -> Label.
+Rule:	PSAFETY1_-, POP_7 -> Label.
+Rule:	PSAFETY2_-, POP_7 -> Label.
+Rule:	VEHMAKE_-, POP_7 -> Label.
+Rule:	POP_7, VEHYEAR_2012 -> Label.
+Rule:	POP_7, VSAFETY2_- -> Label.
+Rule:	VSEAT_1, POP_7 -> Label.
+Rule:	VSEAT_1, PRACE_H -> Label.
+Rule:	PSAFETY1_-, PSEX_M -> Label.
+Rule:	PSAFETY1_-, PSOBER_A -> Label.
+Rule:	PSAFETY1_-, RIGHTWAY_D -> Label.
+Rule:	PSAFETY1_-, VSEX_M -> Label.
+Rule:	PSAFETY2_-, PSOBER_A -> Label.
+Rule:	PSAFETY2_-, RIGHTWAY_D -> Label.
+Rule:	PTYPE_2, PSEX_M -> Label.
+Rule:	VEHMAKE_-, PSEX_M -> Label.
+Rule:	PSEX_M, VEHTYPE_N -> Label.
+Rule:	PSEX_M, VEHYEAR_2012 -> Label.
+Rule:	PSEX_M, VTYPE_3 -> Label.
+Rule:	VEHMAKE_-, PSOBER_A -> Label.
+Rule:	VEHYEAR_2012, PSOBER_A -> Label.
+Rule:	VSEAT_1, PSOBER_A -> Label.
+Rule:	VTYPE_1, PSOBER_A -> Label.
+Rule:	PTYPE_2, VSEX_M -> Label.
+Rule:	VEHMAKE_-, RIGHTWAY_D -> Label.
+Rule:	VEHYEAR_2012, RIGHTWAY_D -> Label.
+Rule:	VSAFETY2_-, RIGHTWAY_D -> Label.
+Rule:	VSEAT_1, RIGHTWAY_D -> Label.
+Rule:	VTYPE_1, RIGHTWAY_D -> Label.
+Rule:	VSEAT_1, SHIFT_5 -> Label.
+Rule:	SHIFT_5, VTYPE_1 -> Label.
+Rule:	STATEHW_N, VSEAT_1 -> Label.
+Rule:	STATEHW_N, VTYPE_1 -> Label.
+Rule:	VEHMAKE_-, VSEX_M -> Label.
+Rule:	VSEAT_1, VEHTYPE_A -> Label.
+Rule:	VEHTYPE_A, VTYPE_1 -> Label.
+Rule:	VSEX_M, VEHTYPE_N -> Label.
+Rule:	VSEX_M, VEHYEAR_2012 -> Label.
+Rule:	VSEAT_1, VEJECTED_0 -> Label.
+Rule:	VEJECTED_0, VTYPE_1 -> Label.
+Rule:	VSEAT_1, VSAFETY1_P -> Label.
+Rule:	VSEX_M, VSAFETY2_- -> Label.
+Rule:	VSEX_M, VTYPE_3 -> Label.
